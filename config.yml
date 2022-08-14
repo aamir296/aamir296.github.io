@@ -1,0 +1,330 @@
+baseURL: https://aamir296.github.io
+languageCode: en-us
+title: "Aamir Khan's Blog"
+theme: hugo-profile
+
+Paginate: 3
+#disqusShortname:  aamir 
+#googleAnalytics: G-XXXXXX
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+
+Menus:
+  main:
+    - identifier: blog
+      name: Blog
+      title: Blog posts
+      url: https://aamir296.hashnode.dev/
+      weight: 1
+    
+    #- identifier: gallery
+      #name: Gallery
+      #title: Blog posts
+      #url: /gallery
+      #weight: 2
+
+      #Dropdown menu
+    # - identifier: dropdown
+    #   title: Example dropdown menu
+    #   name: Dropdown
+    #   weight: 3
+    # - identifier: dropdown1
+    #   title: example dropdown 1
+    #   name: example 1
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 1
+    # - identifier: dropdown2
+    #   title: example dropdown 2
+    #   name: example 2
+    #   url: /#
+    #   parent: dropdown
+    #   weight: 2
+
+params:
+  title: "Aamir Khan"
+  description: Welcome to My Site
+  # staticPath: ""  # The path to serve the static files from
+  favicon: "/android-chrome-512x512.png"
+
+  # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
+  # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
+  # Note the lack of "" in true, it should be of boolean type.
+  useBootstrapCDN: false
+
+  theme:
+    disableThemeToggle: false
+    defaultTheme: "light" # dark
+
+  #font:
+  #   fontSize: 1.5rem # default: 1rem
+  #   fontWeight: 500 # default: 400
+  #   lineHeight: 1 # default: 1.5
+  #   textAlign: right # default: left
+
+    # color preference
+  # color:
+  #   textColor:
+  #   secondaryTextColor:
+  #   backgroundColor:
+  #   secondaryBackgroundColor:
+  #   primaryColor:
+  #   secondaryColor:
+
+  #   darkmode:
+  #     textColor:
+  #     secondaryTextColor:
+  #     backgroundColor:
+  #     secondaryBackgroundColor:
+  #     primaryColor:
+  #     secondaryColor:
+
+    # If you want to customize the menu, you can change it here
+  # navbar:
+  #   align: mx-auto # Left: ms-auto | center: mx-auto | right: me-auto | Default: ms-auto
+  #   brandLogo: "/logo.png" # Logo for the brand | default is the favicon variable
+  #   brandName: "Profile" # Brand name for the brand | default is the title variable
+
+  #   menus:
+  #     disableAbout: true
+  #     disableExperience: true
+  #     disableEducation: true
+  #     disableProjects: true
+  #     disableAchievements: true
+  #     disableContact: true
+
+  # Hero
+  hero:
+    enable: true
+    intro: "Hi, I am"
+    title: "Aamir."
+    subtitle: "I am a Cloud Engineer"
+    content: "I ❤️ to automate stuff 🦾🤖."
+    image: /android-chrome-512x512.png
+    button:
+      enable: true
+      name: "Resume"
+      url: "/docs/Aamir_Khan_Resume.pdf"
+    socialLinks:
+      fontAwesomeIcons:
+        - icon: fab fa-linkedin
+          url: https://www.linkedin.com/in/aamirkhan296
+        - icon: fab fa-github
+          url: https://github.com/aamir296
+        - icon: fab fa-gitlab
+          url: https://gitlab.com/aamir296
+        
+        #- icon: fab fa-twitter
+          #url: https://example.com
+      customIcons:
+        - icon: /hashnode-icon.svg
+          url: "https://aamir296.hashnode.dev/"
+        - icon: /gmail-icon.svg
+          url: "mailto:akaamirkhan296@gmail.com"
+
+  # About
+  about:
+    enable: true
+    title: "🙋🏻‍♂️ About Me 👨🏻‍💻"
+    image: "/android-chrome-512x512.png"
+    content: |-
+      I am a Cloud Engineer with a passion for cloud deployment & automation. I have a Bachelor's degree in Computer Science and Engineering, and I am always keen to learn about new & emerging technologies. I am currently working as a Cloud Engineer at [DXC Technology](https://dxc.com/us/en) in Indore, India. 
+      I am a Lifelong learner & love to read.
+
+      Currently Reading 📖: [Atomic Habits by James Clear](https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=sr_1_2?crid=1Q2ETEMSYOIN3&keywords=atomic+habits&qid=1660461019&sprefix=atomic+h%2Caps%2C227&sr=8-2)
+    skills:
+      enable: true
+      title: "Here are a few technologies I've been working with recently:"
+      items:
+        - "AWS"
+        - "Azure"
+        - "Google Cloud"
+        - "Linux"
+        - "Shell Scripting"
+        - "Python"
+        - "DevOps"
+        - "Kubernetes"
+        - "Terraform"
+        - "SQL"
+        - "PowerShell"
+        #- "YAML"
+        - "IBM DB2"
+        - "Git"
+        - "Docker "
+
+  # Experience
+  experience:
+    enable: true
+    items:
+      - job: "Cloud Engineer"
+        company: "DXC Technology"
+        companyUrl: "https://dxc.com/us/en"
+        date: "Oct 2021 - Present"
+        featuredLink:
+          enable: false
+          name: "View the project"
+          url: "https://example.com"
+        info:
+          enable: true
+          content: Switched to a more cloud-centric role.
+        content: |
+          I worked as a Database Engineer(DBA) for 3 years. Below are a few tasks/responsibilities i had during this period: 
+          - Leveraged the power of AWS to design, optimize, and secure databases that are robust and highly available.
+          - Performed database migration for on-premises databases to AWS cloud using AWS DMS.
+          - Engineered system-wide security protocols like securetext, password masking, and AES encryption using PowerShell for business-critical systems across accounts.
+          - Devised 60+ scripts to automate numerous tasks across multiple business projects using Shell script, PowerShell & Batch scripts.
+          - Optimized data transfer strategy for the customer that reduced the end-to-end cycle time by 50% resulting in an improved data load performance.
+
+
+      - job: "Database Engineer"
+        company: "DXC Technology"
+        companyUrl: "https://dxc.com/us/en"
+        date: "Sep 2018 - Oct 2021"
+        featuredLink:
+          enable: false
+          url: "https://example.com"
+        info:
+          enable: true
+          content: I worked as a Database Engineer(DBA) for 3 years.
+        content: |
+          I worked as a Database Engineer(DBA) for 3 years. Below are a few tasks/responsibilities i had during this period: 
+          - Performed database-related tasks like backups, restores, data load, exports, DB monitoring & maintenance.
+          - Delivered root cause analysis, remediation, and problem resolution for complex database systems.
+          - Performed database tuning to improve performance, scalability & high availability.
+          - Configured High Availability and Disaster Recovery for Production environments across multiple business accounts.
+          - Provided 24x7 on-call support(Level-3) for high-severity problem resolution.
+      
+  # Education
+  education:
+    enable: true
+    # index: true
+    items:
+      - title: "Bachelor of Engineering(B.E.)"
+        school:
+          name: "Rajiv Gandhi Proudyogiki Vishwavidyalaya, Bhopal"
+          url: "https://www.rgpv.ac.in/"
+        date: "2014 - 2018"
+        GPA: "7.2"
+        content: |-
+          Stream: Computer Science & Engineering
+
+          IJESRT Research Paper: [SURVEY OF CRYPTOGRAPHY IN NET SECURITY USED IN E-COMMERCE](http://www.ijesrt.com/issues%20pdf%20file/Archive-2016/March-2016/126_SURVEY%20OF%20CRYPTOGRAPHY%20IN%20NET%20SECURITY%20USED%20IN%20E-COMMERCE%20%E2%80%93A%20TOOL%20FOR%20SAFETY.pdf)
+        
+  # Achievements
+  achievements:
+    enable: true
+    items:
+      - title: Google kickstart runner
+        content: I solved all problems with optimal solution.
+        url: https://example.com
+      - title: Facebook Hackathon Winner
+        content: Developed a product using Artificial Intelligence.
+      - title: Hugo Profile
+        content: Developed a theme and getting 1K+ downloads per month.
+        url: "https://github.com/gurusabarish/hugo-profile"
+      - title: Microsoft Imagine Runner
+        content: We are developed a product which can help others.
+      - title: Google Summer of Code
+        content: Contributed to a open source project.
+        url: https://example.com
+
+  # projects
+  projects:
+    enable: true
+    items:
+      - title: AWS Certified Solutions Architect - Associate
+        content: "Exam: SAA-C02"
+        image: /aws-certified-solutions-architect-associate.png #Place images in static folder & use as /image.png
+        featured:
+          name: Verify Badge
+          link: https://www.credly.com/badges/215d5f84-06a3-42a1-bacb-9d91c5f3e4c5/public_url
+        badges:
+        - "AWS"
+        - "Cloud"
+        links:
+          #- icon: fa fa-envelope
+            #url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
+          #- icon: fab fa-github
+            #url: https://github.com/gurusabarish/hugo-profile
+          #- icon: fab fa-twitter
+            #url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+
+      - title: "Azure Database Administrator Associate"
+        content: "Exam: DP-300"
+        image: /microsoft-certified-azure-database-administrator-associate.png
+        featured:
+          name: Verify Badge
+          link: https://www.credly.com/badges/f22e41ac-a8ce-40d8-822b-f977a5f81d1a/public_url
+        badges:
+        - "Azure"
+        - "Cloud"
+        - "Database"
+        links:
+          - icon: fab fa-github
+            url: https://www.credly.com/badges/f22e41ac-a8ce-40d8-822b-f977a5f81d1a/public_url
+
+      - title: ITIL 4 ® Foundation
+        content: ITIL 4 Foundation Certificate in IT service management
+        image: /itil-4-foundation.png
+        featured:
+          name: Verify Badge
+          link: https://www.credly.com/badges/9c461e81-a107-4200-a22f-c70b19f957d2/public_url
+        badges:
+           - "ITSM"
+        #   - "Bootstrap"
+        #   - "Javascript"
+        links:
+          - icon: fab fa-github
+            url: https://github.com/gurusabarish/HugoProfileV2
+
+      - title: "Azure Data Fundamentals"
+        content: "Exam: DP-900"
+        image: /microsoft-certified-azure-data-fundamentals.png
+        featured:
+          name: Verify Badge
+          link: https://www.credly.com/badges/47cc9210-1d4a-4a8a-8b72-adb09c934051/public_url
+        badges:
+        - "Azure"
+        - "Cloud"
+        - "Database"
+        links:
+          - icon: fab fa-github
+            url: https://www.credly.com/badges/f22e41ac-a8ce-40d8-822b-f977a5f81d1a/public_url
+         
+      - title: "Azure Data Fundamentals"
+        content: "Exam: AZ-900"
+        image: /microsoft-certified-azure-fundamentals.png
+        featured:
+          name: Verify Badge
+          link: https://www.credly.com/badges/97ae7f7b-760b-40f1-8785-19daa0ca03ca/public_url
+        badges:
+        - "Azure"
+        - "Cloud"
+        #- "Database"
+        links:
+          - icon: fab fa-github
+            url: https://www.credly.com/badges/f22e41ac-a8ce-40d8-822b-f977a5f81d1a/public_url
+
+
+
+
+  #Contact
+  contact:
+    enable: true
+    content: 👋🏻 My inbox is always open OR Let's connect over call 📱
+    email: akaamirkhan296@gmail.com
+    phone: +91 7869781363
+    btnName: 📨 Mail me
+    btnName2: 📲 Call Me
+
+  footer:
+    # recentPosts: false
+    socialNetworks:
+      github: https://github.com
+      linkedin: https://linkedin.com
+      twitter: https://twitter.com
+      instagram: https://instagram.com
+      facebook: https://facebook.com
