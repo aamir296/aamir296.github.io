@@ -173,7 +173,7 @@ params:
           enable: true
           content: Switched to a more cloud-centric role.
         content: |
-          While working as a Cloud Engineer, Below are few tasks/responsibilities which I have in this role
+          While working as a Cloud Engineer, Below are few tasks/responsibilities I have in this role:
           - Leveraged the power of AWS to design, optimize, and secure databases that are robust and highly available.
           - Performed database migration for on-premises databases to AWS cloud using AWS DMS.
           - Engineered system-wide security protocols like Secure-Text, password masking, and AES encryption using PowerShell for business-critical systems across accounts.
