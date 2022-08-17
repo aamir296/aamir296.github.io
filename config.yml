@@ -1,4 +1,4 @@
-baseURL: https://aamir296.github.io
+baseURL: "https://aamir296.gitlab.io/"       #Update Base URL as deployed like Gitlab Pages
 languageCode: en-us
 title: "Aamir Khan's Blog"
 theme: hugo-profile
@@ -48,7 +48,7 @@ params:
   title: "Aamir Khan"
   description: Welcome to My Site
   # staticPath: ""  # The path to serve the static files from
-  favicon: "/android-chrome-512x512.png"
+  favicon: "/Memoji.png"
 
   # Whether to serve bootstrap css and js files from CDN or not. Can be set to true, "css" or "js" to choose between
   # serving both, only the css, or only the js files through the CDN. Any other value will make so that CDN is not used.
@@ -103,10 +103,10 @@ params:
     title: "Aamir."
     subtitle: "I am a Cloud Engineer"
     content: "I ❤️ to automate stuff 🦾🤖."
-    image: /android-chrome-512x512.png
+    image: /self.jpg
     button:
       enable: true
-      name: "Resume"
+      name: "Resume"      # Updated Resume to be uploaded at /docs
       url: "/docs/Aamir_Khan_Resume.pdf"
     socialLinks:
       fontAwesomeIcons:
@@ -129,10 +129,11 @@ params:
   about:
     enable: true
     title: "🙋🏻‍♂️ About Me 👨🏻‍💻"
-    image: "/android-chrome-512x512.png"
+    image: "/Memoji.png"
     content: |-
-      I am a Cloud Engineer with a passion for cloud deployment & automation. I have a Bachelor's degree in Computer Science and Engineering, and I am always keen to learn about new & emerging technologies. I am currently working as a Cloud Engineer at [DXC Technology](https://dxc.com/us/en) in Indore, India. 
-      I am a Lifelong learner & love to read.
+      I am a Cloud Engineer ☁️ with a passion for cloud infrastructure deployment & automation. I have a Bachelor's degree 🎓 in Computer Science and Engineering, and I am always keen to learn about new & emerging technologies. I am currently working as a Cloud Engineer at [DXC Technology](https://dxc.com/us/en) in Indore, India. 
+      I am a Lifelong learner for latest tech & love to read books 📖.
+      I am an advocate of the DevOps culture and principles.
 
       Currently Reading 📖: [Atomic Habits by James Clear](https://www.amazon.in/Atomic-Habits-James-Clear/dp/1847941834/ref=sr_1_2?crid=1Q2ETEMSYOIN3&keywords=atomic+habits&qid=1660461019&sprefix=atomic+h%2Caps%2C227&sr=8-2)
     skills:
@@ -150,10 +151,11 @@ params:
         - "Terraform"
         - "SQL"
         - "PowerShell"
-        #- "YAML"
+        - "YAML"
         - "IBM DB2"
         - "Git"
         - "Docker "
+        - "Ansible "
 
   # Experience
   experience:
@@ -174,7 +176,7 @@ params:
           I worked as a Database Engineer(DBA) for 3 years. Below are a few tasks/responsibilities i had during this period: 
           - Leveraged the power of AWS to design, optimize, and secure databases that are robust and highly available.
           - Performed database migration for on-premises databases to AWS cloud using AWS DMS.
-          - Engineered system-wide security protocols like securetext, password masking, and AES encryption using PowerShell for business-critical systems across accounts.
+          - Engineered system-wide security protocols like Secure-Text, password masking, and AES encryption using PowerShell for business-critical systems across accounts.
           - Devised 60+ scripts to automate numerous tasks across multiple business projects using Shell script, PowerShell & Batch scripts.
           - Optimized data transfer strategy for the customer that reduced the end-to-end cycle time by 50% resulting in an improved data load performance.
 
@@ -190,7 +192,7 @@ params:
           enable: true
           content: I worked as a Database Engineer(DBA) for 3 years.
         content: |
-          I worked as a Database Engineer(DBA) for 3 years. Below are a few tasks/responsibilities i had during this period: 
+          I worked as a Database Engineer(DBA) for 3 years for IBM DB2. Below are a few tasks/responsibilities i had during this period: 
           - Performed database-related tasks like backups, restores, data load, exports, DB monitoring & maintenance.
           - Delivered root cause analysis, remediation, and problem resolution for complex database systems.
           - Performed database tuning to improve performance, scalability & high availability.
@@ -217,21 +219,17 @@ params:
   achievements:
     enable: true
     items:
-      - title: Google kickstart runner
-        content: I solved all problems with optimal solution.
-        url: https://example.com
-      - title: Facebook Hackathon Winner
-        content: Developed a product using Artificial Intelligence.
-      - title: Hugo Profile
-        content: Developed a theme and getting 1K+ downloads per month.
-        url: "https://github.com/gurusabarish/hugo-profile"
-      - title: Microsoft Imagine Runner
-        content: We are developed a product which can help others.
-      - title: Google Summer of Code
-        content: Contributed to a open source project.
-        url: https://example.com
-
-  # projects
+      - title: STEPPING UP TO THE CHALLENGE AWARD
+        content: Received DXC Recognition Award for 'STEPPING UP TO THE CHALLENGE' for creating automated scripts that reduced the end-to-end TAT time from 12 hrs to 4 hrs for Client Data Cycles. This was achieved by removing the functional dependency on 3rd party packages & utilizing the core power of Shell Scripting for Linux servers & PowerShell for Windows servers.
+        url: https://www.linkedin.com/in/aamirkhan296/#:~:text=STEPPING%20UP%20TO,THE%20CHALLENGESTEPPING
+      - title: DXC SPOT AWARD
+        content: Received the DXC's SPOT award for managing & deploying robust & highly available mission-critical databases & providing 24x7 Level-3 high-priority support. These were IBM DB2 databases whereby automated maintenance was configured by combining the power of PowerSHell & Batch scripting to implement features such as 256 bit AES Encryption. 
+        url: https://www.linkedin.com/in/aamirkhan296/#:~:text=TO%20THE%20CHALLENGE'-,spot%20awardspot,-AWARD
+      - title: Certificate of Service Appreciation(CSR)
+        content: Voluntary support and valuable contribution to "Food Carnival for Cause" as part of DXC's Corporate Responsibility(CSR) initiatives in India.
+        url: "https://www.linkedin.com/in/aamirkhan296/#:~:text=Certificate%20of%20Service,AppreciationCertificate"
+      
+  # projects -> Changed to Certifications
   projects:
     enable: true
     items:
@@ -245,13 +243,10 @@ params:
         - "AWS"
         - "Cloud"
         links:
-          #- icon: fa fa-envelope
-            #url: mailto:?subject=Hugo%20Profile%20Template&body=Check%20it%20out:%20https%3a%2f%2fhugo-profile.netlify.app%2fblog%2fmarkdown-syntax%2f
-          #- icon: fab fa-github
-            #url: https://github.com/gurusabarish/hugo-profile
-          #- icon: fab fa-twitter
-            #url: https://twitter.com/intent/tweet?text=Check+it+out:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile
+            - icon: fab fa-linkedin
+              url: https://www.linkedin.com/posts/aamirkhan296_aws-certified-solutions-architect-associate-activity-6926390908938502144-Qaqo?utm_source=linkedin_share&utm_medium=member_desktop_web
 
+          
       - title: "Azure Database Administrator Associate"
         content: "Exam: DP-300"
         image: /microsoft-certified-azure-database-administrator-associate.png
@@ -263,8 +258,8 @@ params:
         - "Cloud"
         - "Database"
         links:
-          - icon: fab fa-github
-            url: https://www.credly.com/badges/f22e41ac-a8ce-40d8-822b-f977a5f81d1a/public_url
+          - icon: fab fa-linkedin
+            url: https://www.linkedin.com/in/aamirkhan296/
 
       - title: ITIL 4 ® Foundation
         content: ITIL 4 Foundation Certificate in IT service management
@@ -277,8 +272,8 @@ params:
         #   - "Bootstrap"
         #   - "Javascript"
         links:
-          - icon: fab fa-github
-            url: https://github.com/gurusabarish/HugoProfileV2
+          - icon: fab fa-linkedin
+            url: https://www.linkedin.com/posts/aamirkhan296_itil-4-foundation-certificate-activity-6842300175919181824-VLrp?utm_source=linkedin_share&utm_medium=member_desktop_web
 
       - title: "Azure Data Fundamentals"
         content: "Exam: DP-900"
@@ -291,10 +286,10 @@ params:
         - "Cloud"
         - "Database"
         links:
-          - icon: fab fa-github
-            url: https://www.credly.com/badges/f22e41ac-a8ce-40d8-822b-f977a5f81d1a/public_url
+          - icon: fab fa-linkedin
+            url: https://www.linkedin.com/in/aamirkhan296/
          
-      - title: "Azure Data Fundamentals"
+      - title: "Azure Fundamentals"
         content: "Exam: AZ-900"
         image: /microsoft-certified-azure-fundamentals.png
         featured:
@@ -305,16 +300,13 @@ params:
         - "Cloud"
         #- "Database"
         links:
-          - icon: fab fa-github
-            url: https://www.credly.com/badges/f22e41ac-a8ce-40d8-822b-f977a5f81d1a/public_url
-
-
-
+          - icon: fab fa-linkedin
+            url: https://www.linkedin.com/posts/aamirkhan296_how-i-passed-the-az-900-exam-in-10-days-activity-6820290503666405376-7fUs?utm_source=linkedin_share&utm_medium=member_desktop_web
 
   #Contact
   contact:
     enable: true
-    content: 👋🏻 My inbox is always open OR Let's connect over call 📱
+    content: 👋🏻 My inbox is always open OR Let's connect over the phone 📱
     email: akaamirkhan296@gmail.com
     phone: +91 1234567890
     btnName: 📨 Mail me
@@ -323,8 +315,9 @@ params:
   footer:
     # recentPosts: false
     socialNetworks:
-      github: https://github.com
-      linkedin: https://linkedin.com
+      github: https://github.com/aamir296
+      linkedin: https://www.linkedin.com/in/aamirkhan296/
       twitter: https://twitter.com
       instagram: https://instagram.com
       facebook: https://facebook.com
+      #gitlab: https://facebook.com   #Need to add GitLab SVG
