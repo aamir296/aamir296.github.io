@@ -1,4 +1,4 @@
-baseURL: "https://aamir363.netlify.app/"       #Update Base URL as deployed like Gitlab Pages
+baseURL: "https://aamir296.netlify.app/#about"       #Update Base URL as deployed like Gitlab Pages
 languageCode: en-us
 title: "Aamir Khan's Blog"
 theme: hugo-profile
