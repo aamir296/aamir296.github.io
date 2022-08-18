@@ -1,4 +1,4 @@
-baseURL: "https://aamir296.gitlab.io/"       #Update Base URL as deployed like Gitlab Pages
+baseURL: "https://aamir363.netlify.app/"       #Update Base URL as deployed like Gitlab Pages
 languageCode: en-us
 title: "Aamir Khan's Blog"
 theme: hugo-profile
@@ -320,4 +320,4 @@ params:
       twitter: https://twitter.com
       instagram: https://instagram.com
       facebook: https://facebook.com
-      #gitlab: https://facebook.com   #Need to add GitLab SVG
+      #gitlab: https://facebook.com   #Need to add a GitLab SVG
