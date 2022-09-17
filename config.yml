@@ -233,6 +233,21 @@ params:
   projects:
     enable: true
     items:
+
+      - title: "AWS Certified Cloud Practitioner"
+        content: "Exam: CLF-C01"
+        image: /aws-certified-cloud-practitioner.png
+        featured:
+          name: Verify Badge
+          link: https://www.credly.com/badges/208bd8eb-571f-42f2-83a2-4996ee29cf98/public_url
+        badges:
+        - "AWS"
+        - "Cloud"
+        links:
+          - icon: fab fa-linkedin
+            url: https://www.linkedin.com/in/aamirkhan296/
+
+
       - title: AWS Certified Solutions Architect - Associate
         content: "Exam: SAA-C02"
         image: /aws-certified-solutions-architect-associate.png #Place images in static folder & use as /image.png
